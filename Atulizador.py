@@ -1,11 +1,12 @@
 import os
 import subprocess
+from scripts import main_menu
 
-# Diretório onde o repositório será clonado ou atualizado
-repo_directory = "...\Documents\Mirage\codigos"
+# Diretório
+repo_directory = ".\Documents\Mirage\codigos"
 
-# URL do repositório no GitHub
-repo_url = "https://github.com/seu_usuario/seu_repositorio.git"
+# URL 
+repo_url = "https://github.com/AsterixNine/MirageGlass.git"
 
 # Função para clonar ou atualizar o repositório
 def update_repository():
