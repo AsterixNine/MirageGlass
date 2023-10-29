@@ -1,9 +1,10 @@
-import os
+import os,time 
 import subprocess
 from scripts import main_menu
-
+print('Atualizando repositorio ou abaixando')
+time.sleep(0.5)
 # Diretório
-repo_directory = ".\Documents\Mirage\codigos"
+repo_directory = "."
 
 # URL 
 repo_url = "https://github.com/AsterixNine/MirageGlass.git"
