@@ -20,4 +20,4 @@ def update_repository():
 
 # Chame a função para atualizar o repositório
 update_repository()
-
+main_menu.Menu()
