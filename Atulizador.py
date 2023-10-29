@@ -8,7 +8,7 @@ repo_directory = "."
 
 # URL 
 repo_url = "https://github.com/AsterixNine/MirageGlass.git"
-
+ 
 # Função para clonar ou atualizar o repositório
 def update_repository():
     if os.path.exists(repo_directory):
@@ -20,3 +20,4 @@ def update_repository():
 
 # Chame a função para atualizar o repositório
 update_repository()
+
